@@ -13,8 +13,8 @@ const NavbarDark = () => {
   const headerDark = data.header.headerNavDark;
 
   return (
-    <div className="hidden  md:flex flex-row justify-around bg-bgDark md:w-full text-bgWhite md:h-14 items-center font-montserrat font-bold text-sm leading-6 tracking-wide">
-      <ul className=" md:flex flex-row justify-around md:w-[26.25rem]">
+    <div className="hidden  lg:flex flex-row justify-between lg:px-7 bg-bgDark lg:w-full text-bgWhite lg:h-14 items-center font-montserrat font-bold text-sm leading-6 tracking-wide">
+      <ul className=" lg:flex flex-row justify-around lg:w-[26.25rem]">
         <li>
           <FontAwesomeIcon icon={faPhone} className="text-base" />{" "}
           {headerDark.number}
@@ -24,8 +24,8 @@ const NavbarDark = () => {
           {headerDark.email}
         </li>
       </ul>
-      <p className="md:w-[26.25rem]">{headerDark.text}</p>
-      <ul className=" md:flex flex-row md:w-60 justify-around">
+      <p className="lg:w-[26.25rem]">{headerDark.text}</p>
+      <ul className=" lg:flex flex-row lg:w-60 justify-around">
         Follow Us :
         <li>
           <a href="https://github.com/alicansadeler?tab=projects">
