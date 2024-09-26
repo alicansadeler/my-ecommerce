@@ -16,9 +16,11 @@ const NavbarLight = () => {
   };
 
   const MobileHamburgerContent = () => (
-    <ul className="MOBIL-HAMBURGER-ICERIK flex flex-col items-center justify-between min-h-[250px]">
-      <ul className="my-8 space-y-4 font-montserrat">
-        <h4 className="-b font-bold text-sm">Kadın</h4>
+    <ul className="MOBIL-HAMBURGER-ICERIK flex flex-col items-center justify-between min-h-[250px] lg:flex lg:flex-row lg:justify-start lg:w-[400px]  lg:items-start lg:text-start lg:gap-28 lg:bg-white">
+      <ul className="my-8 space-y-4 font-montserrat lg:space-y-8">
+        <h4 className="font-bold text-sm text-bgDark border-b lg:border-none">
+          Kadın
+        </h4>
         <div className="space-y-4 text-bgGray font-semibold text-sm">
           <li>Bags</li>
           <li>Belts</li>
@@ -26,8 +28,10 @@ const NavbarLight = () => {
           <li>Hats</li>
         </div>
       </ul>
-      <ul className="my-8 space-y-4 font-montserrat">
-        <h4 className="-b font-bold text-sm">Erkek</h4>
+      <ul className="my-8 space-y-4 font-montserrat lg:space-y-8">
+        <h4 className="font-bold text-sm text-bgDark  border-b lg:border-none">
+          Erkek
+        </h4>
         <div className="space-y-4 font-semibold text-bgGray text-sm">
           <li>Bags</li>
           <li>Belts</li>
@@ -39,7 +43,7 @@ const NavbarLight = () => {
   );
 
   return (
-    <div className="flex justify-start items-center lg:flex-row  lg:h-[58px] lg:m-0 border">
+    <div className="flex justify-start items-center lg:flex-row  lg:h-[78px] lg:m-0 border">
       <nav className="lg:m-0 lg:w-full lg:flex lg:items-center">
         <div className="flex flex-row  w-screen justify-around items-center lg:w-full lg:justify-around lg:pl-10">
           <span className="font-montserrat text-bgDark text-base font-bold leading-8 lg:text-2xl lg:order-1">
@@ -47,29 +51,44 @@ const NavbarLight = () => {
           </span>
 
           <div className="flex justify-around w-36 lg:order-3 lg:w-96 lg:flex lg:items-center lg:justify-evenly">
-            <h6 className="hidden lg:block lg:text-center text-sm font-semibold lg:mr-10">
-              <FontAwesomeIcon
-                icon={faUser}
-                className="text-bgDark text-sm mr-2"
-              />
-              Login / Register
-            </h6>
+            <div className="flex">
+              <a
+                href=""
+                className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat"
+              >
+                <FontAwesomeIcon
+                  icon={faUser}
+                  className="text-bgBlue text-sm mr-2 "
+                />
+                Login
+              </a>
+              <span className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat lg:px-1">
+                /
+              </span>
+
+              <a
+                href=""
+                className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat"
+              >
+                Register
+              </a>
+            </div>
 
             <FontAwesomeIcon
               icon={faUser}
-              className="text-bgDark text-base lg:hidden"
+              className="lg:text-bgBlue text-base lg:hidden"
             />
             <FontAwesomeIcon
               icon={faMagnifyingGlass}
-              className="text-bgDark text-base"
+              className="lg:text-bgBlue text-base"
             />
             <FontAwesomeIcon
               icon={faShoppingCart}
-              className="text-bgDark  text-base"
+              className="lg:text-bgBlue  text-base"
             />
             <FontAwesomeIcon
               icon={faHeart}
-              className="hidden lg:block  text-base"
+              className="hidden lg:block  text-base lg:text-bgBlue"
             />
 
             <section className="MOBILE-MENU flex  lg:hidden ">
@@ -110,25 +129,30 @@ const NavbarLight = () => {
               <a href="/about">Home</a>
             </li>
             <button
-              className="hidden lg:block bg-white  p-0"
+              className="hidden lg:block lg:relative bg-white p-0 focus:outline-none"
               onClick={toggleClick}
+              onMouseEnter={toggleClick}
+              onMouseLeave={toggleClick}
             >
               Shop <FontAwesomeIcon icon={faAngleDown} />
               {isShopOpen && (
-                <div className="absolute left-0 w-48">
+                <div className="absolute w-[400px] flex ">
                   {<MobileHamburgerContent />}
                 </div>
               )}
             </button>
 
             <li>
-              <a href="/portfolio">Product</a>
+              <a href="/portfolio">About</a>
             </li>
             <li>
-              <a href="/contact">Pricing</a>
+              <a href="/contact">Blog</a>
             </li>
             <li>
               <a href="/contact">Contact</a>
+            </li>
+            <li>
+              <a href="/contact">Pages</a>
             </li>
           </ul>
         </div>
@@ -149,7 +173,7 @@ const NavbarLight = () => {
           </button>
 
           <li>
-            <a href="/portfolio">Product</a>
+            <a href="/contact">Product</a>
           </li>
           <li>
             <a href="/contact">Pricing</a>

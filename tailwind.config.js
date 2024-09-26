@@ -10,6 +10,7 @@ export default {
         bgDark: "rgba(37, 43, 66, 1)",
         bgWhite: "rgba(255, 255, 255, 1)",
         bgGray: "rgba(115, 115, 115, 1)",
+        bgBlue: "rgba(35, 166, 240, 1)",
       },
     },
   },
