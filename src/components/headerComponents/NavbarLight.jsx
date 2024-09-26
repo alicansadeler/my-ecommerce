@@ -16,7 +16,7 @@ const NavbarLight = () => {
   };
 
   const MobileHamburgerContent = () => (
-    <ul className="MOBIL-HAMBURGER-ICERIK flex flex-col items-center justify-between min-h-[250px] lg:flex lg:flex-row lg:justify-start lg:w-[400px]  lg:items-start lg:text-start lg:gap-28 lg:bg-white">
+    <ul className="MOBIL-HAMBURGER-ICERIK flex flex-col items-center justify-between min-h-[250px] lg:flex lg:flex-row lg:justify-start lg:w-[400px]  lg:items-start lg:text-start lg:gap-20 lg:bg-white lg:pl-10">
       <ul className="my-8 space-y-4 font-montserrat lg:space-y-8">
         <h4 className="font-bold text-sm text-bgDark border-b lg:border-none">
           Kadın
@@ -43,9 +43,9 @@ const NavbarLight = () => {
   );
 
   return (
-    <div className="flex justify-start items-center lg:flex-row  lg:h-[78px] lg:m-0 border">
+    <div className="flex justify-around items-center lg:flex-row  lg:h-[78px] lg:m-0 ">
       <nav className="lg:m-0 lg:w-full lg:flex lg:items-center">
-        <div className="flex flex-row  w-screen justify-around items-center lg:w-full lg:justify-around lg:pl-10">
+        <div className="flex flex-row  w-screen justify-around mt-4 items-center lg:w-full lg:justify-around lg:pl-10 lg:mt-0">
           <span className="font-montserrat text-bgDark text-base font-bold leading-8 lg:text-2xl lg:order-1">
             Bandage
           </span>
@@ -54,7 +54,7 @@ const NavbarLight = () => {
             <div className="flex">
               <a
                 href=""
-                className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat"
+                className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat hover:text-blue-300"
               >
                 <FontAwesomeIcon
                   icon={faUser}
@@ -62,13 +62,13 @@ const NavbarLight = () => {
                 />
                 Login
               </a>
-              <span className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat lg:px-1">
+              <span className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat lg:px-1 ">
                 /
               </span>
 
               <a
                 href=""
-                className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat"
+                className="hidden lg:block lg:text-center text-sm font-extrabold text-bgBlue font-montserrat hover:text-blue-300"
               >
                 Register
               </a>
