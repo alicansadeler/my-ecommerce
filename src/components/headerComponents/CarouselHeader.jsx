@@ -21,7 +21,7 @@ export const CarouselHeader = () => {
           <img
             src={"/col-md-6.png"}
             alt=""
-            className="object-cover mt-16 lg:mt-0 lg:relative lg:left-16 2xl:left-48 2xl:h-[700px]"
+            className="object-cover mt-16 lg:mt-0 lg:relative lg:left-16 2xl:left-20 2xl:h-[700px]"
           />
         </div>
       </div>
