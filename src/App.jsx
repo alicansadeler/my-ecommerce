@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen items-center ">
+    <div className="flex flex-col min-h-screen items-center justify-center lg:w-[1440px] lg:mx-auto">
       <Header />
       <HomePage />
     </div>

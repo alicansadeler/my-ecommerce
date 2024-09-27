@@ -9,7 +9,7 @@ const ShopCards = () => {
           alt="Product 1"
           className="w-[345px] h-[556px] lg:w-full lg:h-full object-cover"
         />
-        <div className="absolute bottom-0 left-0 right-0 h-1/3 lg:w-2/3 bg-bgLightBlue bg-opacity-80 text-white p-10 flex items-start flex-col justify-center gap-4">
+        <div className="absolute bottom-0 left-0  h-1/3 lg:w-2/3 bg-bgLightBlue bg-opacity-80 text-white p-10 flex items-start flex-col justify-center gap-4">
           <h3 className="text-lg font-semibold mb-2 ">
             Top Product Of the Week
           </h3>
