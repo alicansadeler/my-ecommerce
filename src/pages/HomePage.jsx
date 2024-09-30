@@ -1,5 +1,6 @@
 import Brands from "../components/homeComponents/Brands";
 import Content from "../components/homeComponents/Content";
+import Features from "../components/homeComponents/Features";
 import ShopCards from "../components/homeComponents/ShopCards";
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Brands />
       <ShopCards />
       <Content />
+      <Features />
     </div>
   );
 };
