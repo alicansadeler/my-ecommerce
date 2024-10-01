@@ -19,7 +19,7 @@ const Content = () => {
       <img
         src={"/col-md-5.png"}
         alt="content png"
-        className="w-[90%] object-cover  m-0 p-0 lg:w-1/3 lg:order-1"
+        className="w-[80%] object-cover  m-0 p-0 lg:w-1/3 lg:order-1"
       />
     </div>
   );
