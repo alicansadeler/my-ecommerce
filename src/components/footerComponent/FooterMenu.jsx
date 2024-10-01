@@ -26,7 +26,7 @@ const FooterMenu = () => {
   ];
 
   return (
-    <div className="flex flex-col w-full text-left space-y-6 mr-8 font-montserrat">
+    <div className="flex flex-col w-full text-left space-y-6  font-montserrat">
       {menuItems.map((section, index) => (
         <div key={index} className="space-y-2">
           <h3 className="font-bold text-bgDark text-base">{section.title}</h3>
@@ -43,7 +43,7 @@ const FooterMenu = () => {
           <input
             type="email"
             placeholder="Your Email"
-            className="p-4 border border-gray-300 rounded"
+            className="p-4 border border-gray-300 rounded bg-bgFooterGray"
           />
           <button
             type="submit"

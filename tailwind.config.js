@@ -13,6 +13,7 @@ export default {
         bgBlue: "rgba(35, 166, 240, 1)",
         bgDarkBlue: "rgba(42, 124, 199, 1)",
         bgLightBlue: "rgba(45, 139, 192, 0.75)",
+        bgFooterGray: "rgba(250, 250, 250, 1)",
       },
       backgroundImage: {
         "lineer-blue":
