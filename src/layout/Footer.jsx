@@ -8,7 +8,7 @@ import {
 
 export const Footer = () => {
   return (
-    <footer className="flex flex-col items-center w-full max-w-[1440px] px-4  overflow-x-hidden m-0 gap-20 font-montserrat">
+    <footer className="flex flex-col items-center w-full max-w-[1440px] px-4  overflow-x-hidden m-0 gap-20 font-montserrat mt-10">
       {/* Sosyal medya ve başlık alanı */}
       <div className="flex flex-col items-start gap-10 sm:flex-row sm:justify-between w-full bg-bgFooterGray p-10">
         <span className="text-2xl font-bold">Bandage</span>

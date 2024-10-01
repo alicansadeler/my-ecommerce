@@ -2,7 +2,7 @@ import React from "react";
 
 const ShopCards = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-4 max-w-7xl mx-auto p-2">
+    <div className="flex flex-col md:flex-row gap-4 max-w-7xl mx-auto p-2 ">
       <div className="w-full md:w-full  relative overflow-hidden lg:w-[611px] lg:h-[594px]">
         <img
           src={"/shop-cards/shop1.png"}

@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <div className="font-montserrat flex flex-col items-center justify-center gap-20 text-center overflow-x-hidden">
+    <div className="font-montserrat flex flex-col items-center justify-center gap-20 text-center overflow-x-hidden mt-10">
       <div className="flex flex-col items-center flex-wrap gap-2 w-[90%]">
         <h1 className="font-semibold text-lg text-bgGray">Featured Products</h1>
         <h1 className="font-bold text-2xl text-bgDark">THE BEST SERVICES</h1>

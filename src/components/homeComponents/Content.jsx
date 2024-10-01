@@ -1,6 +1,6 @@
 const Content = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-10  overflow-x-hidden w-full lg:flex-row lg:justify-center lg:items-center lg:max-w-[1050px] ">
+    <div className="flex flex-col items-center justify-center gap-10  overflow-x-hidden w-full lg:flex-row lg:justify-center lg:items-center lg:max-w-[1050px] mt-10">
       <div className="w-[70%] text-left font-montserrat lg:order-2 lg:ml-10">
         <h3 className="text-bgBlue font-bold text-base">Featured Products</h3>
         <br />
