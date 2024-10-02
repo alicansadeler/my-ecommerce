@@ -26,7 +26,7 @@ const FooterMenu = () => {
   ];
 
   return (
-    <div className="flex flex-col w-full text-left space-y-6  font-montserrat">
+    <div className="flex flex-col w-full text-left space-y-6  font-montserrat lg:flex-row lg:justify-around lg:space-y-0">
       {menuItems.map((section, index) => (
         <div key={index} className="space-y-2">
           <h3 className="font-bold text-bgDark text-base">{section.title}</h3>
