@@ -1,3 +1,4 @@
+import Blog from "../components/homeComponents/Blog";
 import Brands from "../components/homeComponents/Brands";
 import Content from "../components/homeComponents/Content";
 import Features from "../components/homeComponents/Features";
@@ -10,6 +11,7 @@ const HomePage = () => {
       <ShopCards />
       <Content />
       <Features />
+      <Blog />
     </div>
   );
 };
