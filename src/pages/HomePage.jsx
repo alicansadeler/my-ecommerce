@@ -7,7 +7,7 @@ import ShopCards from "../components/homeComponents/ShopCards";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col items-center justify-center overflow-x-hidden gap-10">
+    <div className="flex flex-col items-center justify-center overflow-x-hidden gap-20">
       <Brands />
       <Product />
       <ShopCards />

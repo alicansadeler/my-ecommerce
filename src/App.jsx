@@ -7,7 +7,7 @@ import { Footer } from "./layout/Footer";
 // product detail route' eklenmeli
 function App() {
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center 2xl:w-[1440px] 2xl:mx-auto gap-10">
+    <div className="flex flex-col min-h-screen items-center justify-center 2xl:w-[1440px] 2xl:mx-auto gap-20">
       <Header />
       <HomePage />
       <Footer />
